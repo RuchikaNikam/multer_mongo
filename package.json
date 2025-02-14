@@ -1,0 +1,33 @@
+{
+  "name": "multer_mongo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuchikaNikam/multer_mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RuchikaNikam/multer_mongo/issues"
+  },
+  "homepage": "https://github.com/RuchikaNikam/multer_mongo#readme",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
